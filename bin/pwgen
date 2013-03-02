@@ -1,0 +1,4 @@
+#!/bin/bash
+pluginpath="$(dirname "$0")/.."
+cd "$pluginpath"
+./xkcd-password.py -w common-words.txt
